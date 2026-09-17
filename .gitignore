@@ -1,0 +1,26 @@
+# Raw and processed data
+data/raw/
+data/processed/
+
+# Large 10x / spatial files
+*.h5
+*.hdf5
+*.cloupe
+*.tar
+*.tar.gz
+*.rds
+
+# R temporary/session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# QuPath large project data
+pathology/qupath_project/data/
+
+results/morans_i_spatially_variable_genes.csv
